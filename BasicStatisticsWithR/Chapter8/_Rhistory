@@ -1,0 +1,512 @@
+plot(x, dc, type="l", axes=F, ylim=c(-0.03, 0.25), xlab="", ylab="")
+abline(h=0)
+tol.g <- round(tol, 2)
+polygon(c(tol.g, x[x>tol.g], 15), c(0, dc[x>tol.g], 0), col="red")
+?plot
+?plot
+plot(x, dc, type="l", axes=T, ylim=c(-0.03, 0.25), xlab="", ylab="")
+abline(h=0)
+tol.g <- round(tol, 2)
+polygon(c(tol.g, x[x>tol.g], 15), c(0, dc[x>tol.g], 0), col="red")
+text(0, -0.03, "0", cex=0.8)
+text(tol, -0.03, expression(chi[0.05]^{2}==2.14), cex=0.8)
+?text
+tol <- qchisq(0.95, df=3)
+tol
+plot(c(1, 6), c(-3.5, 3.5), type = "n")
+x <- c(1, 2, 3, NA, 4, 4, 6)
+y <- c(1, -3, 2, NA, -3, 3, -3)
+polygon(x, y,
+col = c("yellow", "blue"),
+border = c("black", "red"),
+lwd = 2,
+lty = c("dotted", "solid"))
+title("Multiple polygons from NA values")
+n <- 100
+xx <- c(0:n, n:0)
+yy <- c(c(0,cumsum(rnorm(n))), rev(c(0,cumsum(rnorm(n)))))
+plot   (xx, yy, type="n", xlab="Time", ylab="Distance")
+polygon(xx, yy, col="gray", border = "red")
+title("Distance Between Brownian Motions")
+n <- 100
+xx <- c(0:n, n:0)
+yy <- c(c(0,cumsum(rnorm(n))), rev(c(0,cumsum(rnorm(n)))))
+plot   (xx, yy, type="n", xlab="Time", ylab="Distance")
+polygon(xx, yy, col="gray", border = "red")
+title("Distance Between Brownian Motions")
+n <- 100
+xx <- c(0:n, n:0)
+yy <- c(c(0,cumsum(rnorm(n))), rev(c(0,cumsum(rnorm(n)))))
+plot   (xx, yy, type="n", xlab="Time", ylab="Distance")
+polygon(xx, yy, col="gray", border = "red")
+title("Distance Between Brownian Motions")
+n <- 100
+xx <- c(0:n, n:0)
+yy <- c(c(0,cumsum(rnorm(n))), rev(c(0,cumsum(rnorm(n)))))
+plot   (xx, yy, type="n", xlab="Time", ylab="Distance")
+polygon(xx, yy, col="gray", border = "red")
+title("Distance Between Brownian Motions")
+n <- 100
+xx <- c(0:n, n:0)
+yy <- c(c(0,cumsum(rnorm(n))), rev(c(0,cumsum(rnorm(n)))))
+plot   (xx, yy, type="n", xlab="Time", ylab="Distance")
+polygon(xx, yy, col="gray", border = "red")
+title("Distance Between Brownian Motions")
+0:n
+n:0
+c(0:n, n:0)
+xx
+yy <- c(c(0,cumsum(rnorm(n))), rev(c(0,cumsum(rnorm(n)))))
+yy
+plot
+plot   (xx, yy, type="n", xlab="Time", ylab="Distance")
+plot   (xx, yy, type="n", xlab="Time", ylab="Distance")
+polygon(xx, yy, col="gray", border = "red")
+?plot
+plot   (xx, yy, type="n", xlab="Time", ylab="Distance")
+polygon(xx, yy, col="gray", border = "red")
+plot   (xx, yy, type="l", xlab="Time", ylab="Distance")
+plot   (xx, yy, type="n", xlab="Time", ylab="Distance")
+plot   (xx, yy, type="n", xlab="Time", ylab="Distance")
+polygon(xx, yy, col="gray", border = "red")
+polygon(xx, yy, col="blue", border = "red")
+polygon(xx, yy, col="gray", border = "red")
+title("Distance Between Brownian Motions")
+polygon(xx, yy, col=" #ffffff ", border = "red")
+polygon(xx, yy, col="#ffffff", border = "red")
+polygon(xx, yy, col="#F5FFFA ", border = "red")
+polygon(xx, yy, col="#F5FFFA", border = "red")
+ordered(x, ...)
+rnorm(40)
+data1 <- rnorm(40)
+hist(data1)
+data1 <- rnorm(40)
+hist(data1)
+n=40
+k=8
+n/k
+(n/k)
+data1 <- rnorm(40,mean = 15)
+hist(data1)
+data1
+round(data1,2)
+data1 <- rnorm(40,mean = 174,sd = 10
+round(data1,2)
+hist(data1)
+n=40
+k=8
+(n/k)
+plot()
+chisq.test(x = )
+data1 <- rnorm(40,mean = 174,sd = 10)
+round(data1,2)
+c(168.18 177.47 181.06 182.36 174.60 186.98 189.28 155.79 173.72 185.18 195.23
+,156.84 191.63 170.34 170.68 174.25 182.10 175.01 182.82 168.90 168.33 153.37,
+185.44 176.56 191.59 186.54 186.64 187.89 175.02 191.80 173.34 170.09 167.74
+,169.37 171.92 193.21 164.29 178.99 170.21 177.04)
+c(168.18 177.47 181.06 182.36 174.60 186.98 189.28 155.79 173.72 185.18 195.23,156.84 191.63 170.34 170.68 174.25 182.10 175.01 182.82 168.90 168.33 153.37,
+185.44 176.56 191.59 186.54 186.64 187.89 175.02 191.80 173.34 170.09 167.74
+,169.37 171.92 193.21 164.29 178.99 170.21 177.04)
+data1 <- rnorm(40,mean = 174,sd = 10)
+round(data1,2)
+set.seed(0708)
+data1 <- rnorm(40,mean = 174,sd = 10)_
+round(data1,2)
+data1
+set.seed(0708)
+data1 <- rnorm(40,mean = 174,sd = 10)
+round(data1,2)
+set.seed(0708)
+data1 <- rnorm(40,mean = 174,sd = 10)
+round(data1,2)
+hist(data1)
+k=8
+n=40
+alpha=0.01
+data1
+write.csv(data1)
+write.csv(data1,file = "C:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data")
+write.csv(data1,file = "C:/Users/MIN-SEOP")
+write.csv(data1,file = "C:/Users/MIN-SEOP/Desktop/")
+write.csv(data1,file = "C:/Users/MIN-SEOP/Desktop")
+write.csv(data1,file = "C:/Users/MIN-SEOP/Desktop")
+write.csv(data1)
+n=40 #측정된 데이터는 40개이다.
+n=40 #측정된 데이터는 40개이다.
+write.csv(data1,file = "c:/")
+write.csv(data1,file = "c:/Users/MIN-SEOP/")
+write.csv(data1,file = "c:/Users/MIN-SEOP/")
+write.csv(data1,file = "c:/Users/MIN-SEOP")
+write.csv(data1,file = "c:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data/00.example.R")
+write.csv(data1,file = "c:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data/00.example.R")
+write.csv(data1,file = "c:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data/00.example.csv")
+read.csv(file = "c:/Users/YourPCname/Google 드라이브/R/Chapter8/data/00.example.csv")
+read.csv(file = "c:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data/00.example.csv")
+data1<-read.csv(file = "c:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data/00.example.csv")
+str(data1)
+head(data1)
+data1
+rnorm(40,mean = 174,sd = 10)
+data1 <- rnorm(40,mean = 174,sd = 10)
+data1
+str(data1)
+head(data1)
+data1
+head(data1)
+data1<-read.csv(file = "c:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data/00.example.csv")
+str(data1)
+head(data1)
+names(data1) <- c("num","height")
+head(data1)
+data1[1,]
+data1[,1]
+data1 <- data1[,1]
+data1
+data1<-read.csv(file = "c:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data/00.example.csv")
+str(data1)
+head(data1)
+names(data1) <- c("num","height")
+head(data1)
+data1 <- data1[,-1]
+data1
+n=40 #측정된 데이터는 40개이다.
+k=8  #k값은 기대도수가 5 이상 되도록 임의로 선정한다.
+alpha=0.01 #유의수준은 1%이다.
+alpha
+Xbar
+Xbar <- mean(data1)
+Xbar <- mean(data1)
+Xbar
+sum(data1)/(length(data1)-1)
+(length(data1)-1)
+Xbar <- mean(data1)
+mean(data1)
+sum(data1)/(length(data1))
+sum(data1)/(length(data1)-1)
+(length(data1)-1)
+mean(data1)
+Xbar <- sum(data1)/(length(data1)-1)
+(Xbar <- sum(data1)/(length(data1)-1))
+(S    <- sd(data1))
+data1-mean(data)
+data1-mean(data1)
+(Xbar <- mean(data1,na.rm = F))
+mean(data1)
+(Xbar <- mean(data1,na.rm = T))
+(length(data1)
+-1)
+(length(data1)
+length(data1)
+length(data1)
+var(data1)
+mean(data1)
+(Xbar <- mean(data1)
+var(data1)
+set.seed(0708)
+data1 <- rnorm(40,mean = 174,sd = 10)
+round(data1,2)
+hist(data1)
+sum(data1)/length(data1)
+mean(data1)
+(Xbar <- mean(data1)
+var(data1)
+set.seed(0708)
+data1 <- rnorm(40,mean = 174,sd = 10)
+round(data1,2)
+hist(data1)
+var(data1)
+sum((data1-mean(data1))^2)
+sum((data1-mean(data1))^2)
+var(data1)
+data1
+mean(data1)
+(data1-mean(data1))^2
+sum((data1-mean(data1))^2)/length(data1)
+sum((data1-mean(data1))^2)/length(data1)
+sum((data1-mean(data1))^2)/length(data1)-1
+(data1)
+var(data1)
+sum((data1-mean(data1))^2)/length(data1)-1
+sum((data1-mean(data1))^2)/(length(data1)-1)
+var(data1)
+sum((data1-mean(data1))^2)/(length(data1)-1)
+(Xbar <- mean(data1))
+var(data1)
+sum((data1-mean(data1))^2)/(length(data1)-1) #n-1을 해준 표본분산과 일치한다.
+S<-sum((data1-mean(data1))^2)/(length(data1)-1) #n-1을 해준 표본분산과 일치한다.
+(S<-sum((data1-mean(data1))^2)/(length(data1)-1)) #n-1을 해준 표본분산과 일치한다.
+plot(data1)
+hist(data1)
+rnorm(100)
+ND<- rnorm(100)
+ND<- rnorm(100)
+hist(ND)
+ND<- rnorm(999)
+hist(ND)
+ND<- rnorm(9999)
+hist(ND)
+ND<- rnorm(9999999)
+hist(ND)
+ND<- rnorm(9999999)
+hist(ND)
+ND<- rnorm(99999)
+hist(ND)
+lines(x = ND)
+plot(ND)
+plot(ND)
+lines(x = ND)
+ND<- rnorm(9999)
+boxplot(ND)
+ggplot(ND)
+install.packages("ggplot2")
+x <- seq(-3, 3, length=200) > plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+x <- seq(-3, 3, length=200) > plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+x <- seq(-3, 3, length=200) > plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+x <- seq(-3, 3, length=200) > plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+x
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+x <- seq(-3, 3, length=200)
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+dnorm(x, mean=0, sd=1)
+x
+dnorm(x, mean=0, sd=1)
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+pnorm(q=0.125)
+p
+qnorm(0.125, mean=0, sd=1, lower.tail=TRUE)
+qnorm(0.125, mean=0, sd=1, lower.tail=TRUE)
+qnorm(0.250, mean=0, sd=1, lower.tail=TRUE)
+qnorm(0.375, mean=0, sd=1, lower.tail=TRUE)
+qnorm(0.500, mean=0, sd=1, lower.tail=TRUE)
+qnorm(0.250, mean=0, sd=1, lower.tail=TRUE)
+qnorm(0.125, mean=0, sd=1, lower.tail=TRUE)
+qnorm(0.125, mean=0, sd=1, lower.tail=F)
+qnorm(0.125, mean=0, sd=1, lower.tail=F)
+qnorm(0.250, mean=0, sd=1, lower.tail=F)
+qnorm(0.375, mean=0, sd=1, lower.tail=F)
+qnorm(0.500, mean=0, sd=1, lower.tail=F)
+qnorm(0.250, mean=0, sd=1, lower.tail=F)
+qnorm(0.125, mean=0, sd=1, lower.tail=F)
+qnorm(0.125, mean=0, sd=1, lower.tail=F)
+c(qnorm(0.125, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.375, mean=0, sd=1, lower.tail=F),
+qnorm(0.500, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.125, mean=0, sd=1, lower.tail=F))
+Z<- c(qnorm(0.125, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.375, mean=0, sd=1, lower.tail=F),
+qnorm(0.500, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.125, mean=0, sd=1, lower.tail=F))
+lines(x=Z)
+lines(x=Z[1])
+lines(x=Z[1])
+line(x=Z[1])
+Z[1]
+line(Z[1])
+abline(Z[1])
+abline(Z[1],0:10)
+abline(Z[1],0:10)
+Z[1]
+0:10
+0:10
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+abline(Z[1],0:10)
+abline(Z[1],1)
+Z[1]
+abline(Z[1],0)
+set.seed(0708)
+abline(Z[1],0)
+abline(Z[1],99)
+Z[1]
+lines(Z[1],)
+lines(Z[1],1)
+?lines
+lines(Z[1])
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+Z<- c(qnorm(0.125, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.375, mean=0, sd=1, lower.tail=F),
+qnorm(0.500, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.125, mean=0, sd=1, lower.tail=F))
+lines(Z[1])
+install.packages("ggplot2")
+library(ggolot2)
+library(ggplot2)
+x <- seq(-3, 3, length=200)
+plot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+Z<- c(qnorm(0.125, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.375, mean=0, sd=1, lower.tail=F),
+qnorm(0.500, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.125, mean=0, sd=1, lower.tail=F))
+geom_vline(xintercept=2, colour="grey", linetype="dashed", size=1) + # 평균에 세로 직선 추가
+set.seed(0708)
+geom_vline(xintercept=Z[1], colour="grey", linetype="dashed", size=1) + # 평균에 세로 직선 추가
+set.seed(0708)
+geom_vline(xintercept=Z[1], colour="grey", linetype="dashed", size=1)# 평균에 세로 직선 추가
+geom_vline(xintercept=Z[1], colour="grey", linetype="dashed", size=1)# 평균에 세로 직선 추가
+ggplot(x, dnorm(x, mean=0, sd=1), type='l', main="Normal distribution, X~N(0,1)")
+c(qnorm(0.125, mean=0, sd=1, lower.tail=F)
+c(qnorm(0.125, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.375, mean=0, sd=1, lower.tail=F),
+qnorm(0.500, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.125, mean=0, sd=1, lower.tail=F))
+x
+ggplot(data = x)
+x
+ggplot(data = c(x,dnorm(x, mean=0, sd=1))
+#각 구간에 해당하는 Z값 구하기
+Z<- c(qnorm(0.125, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.375, mean=0, sd=1, lower.tail=F),
+qnorm(0.500, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.125, mean=0, sd=1, lower.tail=F))
+geom_vline(xintercept=Z[1], colour="grey", linetype="dashed", size=1)# 평균에 세로 직선 추가
+set.seed(0708)
+data1 <- rnorm(40,mean = 174,sd = 10)
+round(data1,2)
+hist(data1)
+ggplot(data = c(x,dnorm(x, mean=0, sd=1)))
+ggplot(data = data.frame(x,dnorm(x, mean=0, sd=1)))
+ggplot(data = data.frame(x,dnorm(x, mean=0, sd=1)))
+data.frame(x,dnorm(x, mean=0, sd=1))
+ggplot(data = data.frame(x,dnorm(x, mean=0, sd=1)))
+geom_vline(xintercept=Z[1], colour="grey", linetype="dashed", size=1)# 평균에 세로 직선 추가
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) +
+stat_function(fun=dnorm, colour="blue", size=1) +("Normal Distribution")
+library(ggplot2)
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) +
+stat_function(fun=dnorm, colour="blue", size=1) +("Normal Distribution")
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) +
+stat_function(fun=dnorm, colour="blue", size=1) +("Normal Distribution"))
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) + stat_function(fun=dnorm, colour="blue", size=1) +("Normal Distribution")
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) + stat_function(fun=dnorm, colour="blue", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) + stat_function(fun=dnorm, colour="blue", size=1) +"normal"
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) + stat_function(fun=dnorm, colour="blue", size=1)+ ggtitle("Normal Distribution")
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) + stat_function(fun=dnorm, colour="blue", size=1)+ ggtitle("Normal Distribution")
+geom_vline(xintercept=2, colour="grey", linetype="dashed", size=1)
+geom_vline(xintercept=2, colour="grey", linetype="dashed", size=1)
+geom_vline(xintercept=2, colour="grey", linetype="dashed", size=1)
++geom_text(x=0, y=0.3, label="x = N(2, 1)")
++ggtitle("Normal Distribution of x~N(2,1)")
+ggplot(data.frame(x=c(-3,3)), aes(x=x))
+ggplot(data.frame(x=c(-3,3)), aes(x=x))
++ stat_function(fun=dnorm, colour="blue", size=1)
++ ggtitle("Normal Distribution")
+ggplot(data.frame(x=c(-3,3)), aes(x=x))
++ stat_function(fun=dnorm, colour="blue", size=1)
++ ggtitle("Normal Distribution")
++ geom_vline(xintercept=2, colour="grey", linetype="dashed", size=1)
++ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x))
++ ggtitle("Normal Distribution")
++ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) + ggtitle("Normal Distribution")+ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+x=c(-3,3)
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) + ggtitle("Normal Distribution")+ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) stat_function(fun=dnorm, colour="blue", size=1) + ggtitle("Normal Distribution")+ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x)) +stat_function(fun=dnorm, colour="blue", size=1) + ggtitle("Normal Distribution")+ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x))
++ stat_function(fun=dnorm, colour="blue", size=1)
++ ggtitle("Normal Distribution")
++ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+# (1) 정규분포 그래프 (Normal distribution plot, X~N(0,1))
+ggplot(data.frame(x=c(-3,3)), aes(x=x))
++ stat_function(fun=dnorm, colour="blue", size=1)
++ ggtitle("Normal Distribution")
++ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x))+ stat_function(fun=dnorm, colour="blue", size=1) + ggtitle("Normal Distribution")+ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x))+
+stat_function(fun=dnorm, colour="blue", size=1) +ggtitle("Normal Distribution")+ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x))+
+stat_function(fun=dnorm, colour="blue", size=1) +ggtitle("Normal Distribution")+ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+geom_vline(xintercept=2, colour="grey", linetype="dashed", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x))+
+stat_function(fun=dnorm, colour="blue", size=1) +ggtitle("Normal Distribution")+ geom_vline(xintercept=1, colour="grey", linetype="dashed", size=1)
+ggplot(data.frame(x=c(-3,3)), aes(x=x))+
+stat_function(fun=dnorm, colour="blue", size=1) +ggtitle("Normal Distribution")+ geom_vline(xintercept=Z, colour="grey", linetype="dashed", size=1)
+Z
+pnorm(0.250)
+rnorm(0.250)
+dnorm(0.250)
+pnorm(0.250)
+Z<- c(qnorm(0.125, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.375, mean=0, sd=1, lower.tail=F),
+qnorm(0.500, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.125, mean=0, sd=1, lower.tail=F))
+Z
+pnorm(Z[1])
+pnorm(Z[1])
+pnorm(Z[1])
+Z[1]
+pnorm(-Z[1])
+dnorm(x = data1)
+data1<-read.csv(file = "c:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data/00.example.csv")
+data1
+data1<-read.csv(file = "c:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data/00.example.csv")
+str(data1)
+head(data1)
+names(data1) <- c("num","height")
+head(data1)
+data1<-read.csv(file = "c:/Users/MIN-SEOP/Google 드라이브/R/Chapter8/data/00.example.csv")
+str(data1)
+head(data1)
+names(data1) <- c("num","height")
+head(data1)
+data1 <- data1[,-1]
+dnorm(x = data1)
+data1
+pnorm(x = data1)
+pnorm(q = Z[1])
+pnorm(q = Z[1])
+quantile(x = data1,probs = 0.875)
+Z<- c(qnorm(0.125, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.375, mean=0, sd=1, lower.tail=F),
+qnorm(0.500, mean=0, sd=1, lower.tail=F),
+qnorm(0.250, mean=0, sd=1, lower.tail=F),
+qnorm(0.125, mean=0, sd=1, lower.tail=F))
+Z
+Z<- c(qnorm(0.125, mean=0, sd=1, lower.tail=T),
+qnorm(0.250, mean=0, sd=1, lower.tail=T),
+qnorm(0.375, mean=0, sd=1, lower.tail=T),
+qnorm(0.500, mean=0, sd=1, lower.tail=T),
+qnorm(0.250, mean=0, sd=1, lower.tail=T),
+qnorm(0.125, mean=0, sd=1, lower.tail=T))
+mean(data1)
+mean(data1)
+sum(data1)/length(data1) #두 값이 일치함을 볼 수 있다.
+(Xbar <- mean(data1))
+var(data1)
+(S<-sum((data1-mean(data1))^2)/(length(data1)-1)) #n-1을 해준 표본분산과 일치한다.
+ggplot(data.frame(x=c(-3,3)), aes(x=x))+
+stat_function(fun=dnorm, colour="blue", size=1) +ggtitle("Normal Distribution")+ geom_vline(xintercept=Z, colour="grey", linetype="dashed", size=1)
+quantile(x = data1,prbos = 0.875)
+pnorm(q = Z[1])
+quantile(x = data1,prbos = 0.875)
+quantile(x = data1,prbos = Z)
+Z
+quantile(x = data1,prbos = Z)
+qf(x = data1,prbos = Z)
+Z
+pnorm(q = Z[1])
+qf(x = data1,prbos = Z)
+quantile(x = data1,prbos = Z)
+Z
+quantile(x = data1,prbos = Z)
+set.seed(0708)
